@@ -20,11 +20,12 @@ class ListingController extends Controller
 
         abort_if(!$product, 404);
 
+        // Find similar products and fetch only 4 of them
         $similar = collect($products)
             ->filter(fn($p) => ($p['about_product']['category'] ?? null) === ($product['about_product']['category'] ?? null)
                 && ($p['about_product']['slug'] ?? null) !== $slug
             )
-            ->take(3)
+            ->take(4)
             ->values()
             ->all();
 

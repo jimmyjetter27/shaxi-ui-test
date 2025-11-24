@@ -31,25 +31,10 @@ class HomeController extends Controller
             ->values();
 
         if ($nonPromoted->isEmpty()) {
-            // Fallback: show everything as "All Listings"
             $nonPromoted = $collection->values();
         }
 
-        $perPage = 6;
-        $page = request()->integer('page', 1);
-        $total = $nonPromoted->count();
-        $items = $nonPromoted->forPage($page, $perPage)->values()->all();
-
-        $listings = new LengthAwarePaginator(
-            $items,
-            $total,
-            $perPage,
-            $page,
-            [
-                'path' => request()->url(),
-                'query' => request()->query(),
-            ]
-        );
+        $listings = $nonPromoted->values()->all(); // plain array
 
         return view('welcome', [
             'promoted' => $promoted,

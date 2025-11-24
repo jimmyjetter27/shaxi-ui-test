@@ -1,25 +1,51 @@
-<section class="space-y-4">
+<section
+    class="space-y-4"
+    x-data="{
+        perPage: 14,
+        visible: 14,
+        total: {{ count($listings) }},
+        loading: false,
+        loadMore() {
+            if (this.visible >= this.total) return;
+
+            this.loading = true;
+            setTimeout(() => {
+                this.visible = Math.min(this.visible + this.perPage, this.total);
+                this.loading = false;
+            }, 400);
+        }
+    }"
+>
     <h2 class="text-xl font-semibold">All Listings</h2>
 
-    {{-- was: grid-cols-2 md:grid-cols-4 --}}
-    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 md:gap-6 xl:gap-7">
-    @forelse ($listings as $product)
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-4 xl:gap-5">
+        @forelse ($listings as $product)
             @php
-                $info  = $product['about_product'];
+                if (!isset($product['about_product'])) {
+                    continue;
+                }
+
+                $info = $product['about_product'];
                 $price = $info['price'] ?? 0;
             @endphp
 
-            <a href="{{ route('listings.show', $info['slug']) }}" class="h-full">
+            {{-- only show if index < visible --}}
+            <a
+                href="{{ route('listings.show', $info['slug']) }}"
+                class="h-full"
+                x-show="{{ $loop->index }} < visible"
+                x-transition.opacity.duration.200ms
+            >
                 <div
                     class="rounded-xl bg-white text-slate-900 relative overflow-hidden
                            border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200
                            h-full flex flex-col"
                 >
                     <div
-                        class="relative aspect-[3/2] overflow-hidden bg-gray-100 rounded-t-lg
-           border-b border-gray-100"
+                        class="relative aspect-[4/3] overflow-hidden bg-gray-100 rounded-t-lg
+                               border-b border-gray-100"
                     >
-                    <img
+                        <img
                             src="{{ asset($info['image']) }}"
                             alt="{{ $info['name'] }}"
                             class="absolute inset-0 w-full h-full object-cover bg-white"
@@ -31,9 +57,7 @@
                             ₵{{ number_format($price, 0, '.', ',') }}
                         </div>
 
-                        <h3
-                            class="text-xs sm:text-sm text-gray-700 leading-tight line-clamp-2 flex-1"
-                        >
+                        <h3 class="text-xs sm:text-sm text-gray-700 leading-tight line-clamp-2 flex-1">
                             {{ $info['name'] }}
                         </h3>
 
@@ -60,16 +84,33 @@
         @endforelse
     </div>
 
-    {{-- "Load more" using paginator --}}
-    @if ($listings instanceof \Illuminate\Contracts\Pagination\Paginator && $listings->hasMorePages())
-        <div class="flex justify-center mt-6">
-            <a
-                href="{{ $listings->nextPageUrl() }}"
-                class="px-6 py-2.5 rounded-full bg-[#2557D6] text-white text-sm font-semibold
-                       shadow-sm hover:bg-[#1f4ac0] transition"
-            >
-                Load More
-            </a>
-        </div>
-    @endif
+    {{-- optional skeletons while loading --}}
+    <div
+        class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-4 xl:gap-5"
+        x-show="loading"
+    >
+        <template x-for="n in perPage" :key="n">
+            <div class="rounded-xl bg-white border border-gray-200 shadow-sm animate-pulse flex flex-col">
+                <div class="aspect-[4/3] bg-gray-200 rounded-t-lg"></div>
+                <div class="px-3 py-2.5 space-y-2">
+                    <div class="h-4 bg-gray-200 rounded w-1/2"></div>
+                    <div class="h-3 bg-gray-100 rounded w-full"></div>
+                    <div class="h-3 bg-gray-100 rounded w-2/3"></div>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    {{-- Load more button – purely JS, no reload --}}
+    <div class="flex justify-center mt-6" x-show="visible < total">
+        <button
+            type="button"
+            @click="loadMore"
+            class="px-6 py-2.5 rounded-full bg-[#2557D6] text-white text-sm font-semibold
+                   shadow-sm hover:bg-[#1f4ac0] transition flex items-center gap-2"
+        >
+            <span x-show="!loading">Load More</span>
+            <span x-show="loading">Loading…</span>
+        </button>
+    </div>
 </section>

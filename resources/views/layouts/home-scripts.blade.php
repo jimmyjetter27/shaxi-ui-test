@@ -3,10 +3,13 @@
         return {
             items: [],
             init() {
+                // Called from x-init="init()"
+                // Load array of products from localStorage (if present)
                 const STORAGE_KEY = 'recently_viewed_products';
                 try {
                     this.items = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
                 } catch (e) {
+                    // If JSON parse fails, fallback to empty array
                     this.items = [];
                 }
             },

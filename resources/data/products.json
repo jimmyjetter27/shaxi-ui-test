@@ -463,5 +463,183 @@
         "similar_listings": [
             "AZ Luxury Patterned Tote Bag"
         ]
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "slug": "high-power-tuya-smart-switch-with-energy-monitoring",
+        "name": "High Power Tuya Smart Switch with Energy Monitoring",
+        "location": "Tema, Greater Accra",
+        "posted": "Just now",
+        "condition": "New",
+        "category": "Electronics",
+        "price": 350,
+        "image": "images/products/high_power.webp",
+        "description": "Smart high-power WiFi switch for ACs, water heaters and heavy appliances. Supports real-time energy monitoring, schedules and remote control via Tuya app, Alexa and Google Assistant.",
+        "promoted": false
+    },
+    {
+        "slug": "4-gang-glass-panel-tuya-smart-switch",
+        "name": "4-Gang Glass Panel Tuya Smart Switch",
+        "location": "Dansoman, Greater Accra",
+        "posted": "4 hours ago",
+        "condition": "New",
+        "category": "Houses & Apartments",
+        "price": 270,
+        "image": "images/products/4_gang_tuya_control.webp",
+        "description": "Elegant 4-gang touch glass panel switch that controls four lighting zones from a single plate. Works with Tuya app, scenes and timers for living rooms and offices.",
+        "promoted": false
+    },
+    {
+        "slug": "3-gang-tuya-switch-with-scene-control",
+        "name": "3-Gang Tuya Switch with Scene Control",
+        "location": "Sakumono, Greater Accra",
+        "posted": "Today",
+        "condition": "New",
+        "category": "Electronics",
+        "price": 230,
+        "image": "images/products/3_gang_tuya_control.webp",
+        "description": "Create custom lighting scenes with this 3-gang Tuya WiFi switch. Dim lights, automate bedtime scenes and control everything from your phone.",
+        "promoted": false
+    },
+    {
+        "slug": "2-gang-smart-switch-for-living-room",
+        "name": "2-Gang Smart Switch for Living Room",
+        "location": "Koforidua, Eastern Region",
+        "posted": "Yesterday",
+        "condition": "New",
+        "category": "Houses & Apartments",
+        "price": 190,
+        "image": "images/products/2_gang_tuya_control.webp",
+        "description": "Control chandelier and wall lights separately with this 2-gang Tuya WiFi switch. No neutral required, ideal for existing Ghanaian homes.",
+        "promoted": false
+    },
+    {
+        "slug": "single-gang-tuya-smart-switch-for-bedroom",
+        "name": "Single Gang Tuya Smart Switch for Bedroom",
+        "location": "Kasoa, Central Region",
+        "posted": "3 hours ago",
+        "condition": "New",
+        "category": "Electronics",
+        "price": 160,
+        "image": "images/products/high_power.webp",
+        "description": "Minimalist one-gang smart switch for bedside or hallway lighting. Supports remote control, schedules and voice commands through Tuya.",
+        "promoted": false
+    },
+    {
+        "slug": "canon-eos-r10-content-creator-bundle",
+        "name": "Canon EOS R10 Content Creator Bundle",
+        "location": "Osu, Greater Accra",
+        "posted": "2 days ago",
+        "condition": "New",
+        "category": "Cameras",
+        "price": 48000,
+        "image": "images/products/canon_eos_r10.webp",
+        "description": "Canon EOS R10 body with starter lens and memory card. Perfect kit for vloggers, YouTubers and TikTok creators who want sharp 4K footage.",
+        "promoted": false
+    },
+    {
+        "slug": "canon-7234-body-with-bonus-battery",
+        "name": "Canon 7234 Body with Bonus Battery",
+        "location": "Kumasi, Ashanti",
+        "posted": "5 days ago",
+        "condition": "New",
+        "category": "Cameras",
+        "price": 9000,
+        "image": "images/products/canon_7234.webp",
+        "description": "Brand new Canon 7234 DSLR body bundled with extra battery. Reliable workhorse for wedding, event and studio photographers.",
+        "promoted": false
+    },
+    {
+        "slug": "az-luxury-mini-tote-bag",
+        "name": "AZ Luxury Mini Tote Bag",
+        "location": "East Legon, Greater Accra",
+        "posted": "2 days ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 380,
+        "image": "images/products/az_luxury_patterned_tote.webp",
+        "description": "Compact AZ luxury tote with the same patterned finish, perfect for date nights and quick city runs. Fits phone, purse and keys comfortably.",
+        "promoted": false
+    },
+    {
+        "slug": "columbia-steens-mountain-fleece-navy",
+        "name": "Columbia Steens Mountain Fleece - Navy",
+        "location": "Airport Residential, Greater Accra",
+        "posted": "1 week ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 820,
+        "image": "images/products/columbia_steens_mountain.webp",
+        "description": "Navy colourway of the popular Columbia Steens Mountain fleece. Ideal for late-night shoots, road trips and Harmattan season.",
+        "promoted": false
+    },
+    {
+        "slug": "urban-heavy-oversized-tee-grey",
+        "name": "Urban Heavy Oversized Tee - Grey",
+        "location": "Tema, Greater Accra",
+        "posted": "8 hours ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 130,
+        "image": "images/products/men_oversized_heavy_cotton.webp",
+        "description": "Grey oversized heavy cotton T-shirt with clean silhouette. Streetwear friendly and pairs well with cargos and sneakers.",
+        "promoted": false
+    },
+    {
+        "slug": "jwj-mens-2-piece-set-navy",
+        "name": "JWJ Men's 2-Piece Set - Navy",
+        "location": "Spintex, Greater Accra",
+        "posted": "Yesterday",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 340,
+        "image": "images/products/jwj_mens_2.webp",
+        "description": "Navy version of the JWJ two-piece set. Breathable fabric, tailored fit and suitable for Friday wear at work or casual events.",
+        "promoted": false
+    },
+    {
+        "slug": "zity-smart-casual-polo-for-men",
+        "name": "ZITY Smart Casual Polo for Men",
+        "location": "Koforidua, Eastern Region",
+        "posted": "3 days ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 190,
+        "image": "images/products/zity_mens_polo_shirt_short_sleeve.webp",
+        "description": "Smart casual ZITY polo with short sleeves. Works for office Friday looks, church and weekend meet-ups.",
+        "promoted": false
+    },
+    {
+        "slug": "jmierr-relaxed-fit-vacation-shirt",
+        "name": "JMIERR Relaxed Fit Vacation Shirt",
+        "location": "Takoradi, Western Region",
+        "posted": "1 day ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 220,
+        "image": "images/products/jmierr_mens_casual_stylish_short_sleeve.webp",
+        "description": "Relaxed fit JMIERR short sleeve shirt with soft fabric, great for vacations, beach trips and weekend hangouts.",
+        "promoted": false
+    },
+    {
+        "slug": "mens-oversized-heavy-tee-tamale-edition",
+        "name": "Men's Oversized Heavy Tee - Tamale Edition",
+        "location": "Tamale, Northern Region",
+        "posted": "3 weeks ago",
+        "condition": "New",
+        "category": "Fashion",
+        "price": 155,
+        "image": "images/products/mens_oversized_heavy.webp",
+        "description": "Limited Tamale edition oversized heavy T-shirt. Built for comfort in hot weather while still giving that premium streetwear look.",
+        "promoted": false
     }
 ]

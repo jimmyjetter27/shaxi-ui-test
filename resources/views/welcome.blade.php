@@ -13,9 +13,17 @@
     @endif
 
     <style>
-        .scrollbar-hide::-webkit-scrollbar { display: none; }
-        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        /* Hiding scrollbars for WeKit-based browsers*/
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
 
+        /* Hide scrollbars but keep scrolling enabled for other engines like the old edge */
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none; }
+
+        /* Utility class to clamp text to 2 lines and hide the rest */
         .line-clamp-2 {
             display: -webkit-box;
             -webkit-line-clamp: 2;

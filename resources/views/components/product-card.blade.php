@@ -1,7 +1,7 @@
 @props(['product'])
 
 @php
-    $info  = $product['about_product'];
+    $info = $product['about_product'];
     $price = $info['price'] ?? 0;
 @endphp
 
