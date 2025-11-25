@@ -641,5 +641,522 @@
         "image": "images/products/mens_oversized_heavy.webp",
         "description": "Limited Tamale edition oversized heavy T-shirt. Built for comfort in hot weather while still giving that premium streetwear look.",
         "promoted": false
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "about_product": {
+            "slug": "az-luxury-patterned-tote-bag",
+            "name": "AZ Luxury Patterned Tote Bag",
+            "location": "Dzorwulu, Greater Accra",
+            "posted": "1 hour ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 520,
+            "image": "images/products/az_luxury_patterned_tote.webp",
+            "description": "Premium patterned tote bag with reinforced straps and spacious interior. Ideal for work, travel, and casual outings. Durable material with a stylish finish.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "AZ Fashion Hub",
+            "location": "Dzorwulu, Accra, Greater Accra",
+            "about_store": "AZ Fashion Hub curates premium bags, shoes and accessories for the modern Ghanaian shopper, focusing on quality and timeless style."
+        },
+        "similar_listings": [
+            "Mens Oversized Heavy Cotton T-shirt",
+            "Zity Mens Polo Shirt Short Sleeve"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "canon-eos-r10-mirrorless-camera-body-only",
+            "name": "Canon EOS R10 Mirrorless Camera (Body Only)",
+            "location": "Osu, Greater Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Cameras",
+            "price": 7800,
+            "image": "images/products/canon_eos_r10.webp",
+            "description": "Canon EOS R10 mirrorless camera body with fast autofocus and 4K video support. Perfect for content creators, vloggers and photographers.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Accra Photo Store",
+            "location": "Oxford Street, Osu, Greater Accra",
+            "about_store": "We stock brand new and slightly used cameras, lenses, tripods and lighting equipment for professionals and beginners."
+        },
+        "similar_listings": [
+            "Canon 7234 Professional Lens",
+            "High Power Control Tuya WiFi AC or Water Heater Smart Switch"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "canon-7234-telephoto-lens",
+            "name": "Canon 7234 Telephoto Lens",
+            "location": "East Legon, Greater Accra",
+            "posted": "Yesterday",
+            "condition": "Used",
+            "category": "Cameras",
+            "price": 3500,
+            "image": "images/products/canon_7234.webp",
+            "description": "Well maintained Canon 7234 telephoto lens with clean glass and smooth focus ring. Ideal for wildlife and sports photography.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Lens Market GH",
+            "location": "East Legon, Greater Accra",
+            "about_store": "Specialised in cameras and lenses with a focus on trade-ins and fairly used professional gear."
+        },
+        "similar_listings": [
+            "Canon EOS R10 Mirrorless Camera (Body Only)",
+            "High Power Control Tuya WiFi AC or Water Heater Smart Switch"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "columbia-steens-mountain-fleece-jacket-mens",
+            "name": "Columbia Steens Mountain Fleece Jacket - Mens",
+            "location": "Airport Residential, Greater Accra",
+            "posted": "3 hours ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 690,
+            "image": "images/products/columbia_steens_mountain.webp",
+            "description": "Authentic Columbia Steens Mountain full-zip fleece jacket. Soft, warm and lightweight. Perfect for travel and cool evenings.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Outdoor GH",
+            "location": "Airport Residential Area, Greater Accra",
+            "about_store": "We sell outdoor and travel clothing including jackets, hiking boots and camping gear."
+        },
+        "similar_listings": [
+            "Mens Oversized Heavy Cotton T-shirt",
+            "Zity Mens Polo Shirt Short Sleeve"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "jmierr-mens-stylish-short-sleeve-shirt",
+            "name": "JMIERR Mens Casual Stylish Short Sleeve Shirt",
+            "location": "Kumasi, Ashanti Region",
+            "posted": "2 days ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 240,
+            "image": "images/products/jmierr_mens_casual_stylish_short_sleeve.webp",
+            "description": "Breathable short sleeve shirt with a modern cut. Perfect for Friday wear, brunch or casual hangouts.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Ashanti Menswear",
+            "location": "Adum, Kumasi, Ashanti Region",
+            "about_store": "Trendy menswear shop in Kumasi specialising in shirts, trousers and smart casual outfits."
+        },
+        "similar_listings": [
+            "Zity Mens Polo Shirt Short Sleeve",
+            "Mens Oversized Heavy Cotton T-shirt"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "zity-mens-polo-shirt-short-sleeve",
+            "name": "Zity Mens Polo Shirt Short Sleeve",
+            "location": "Spintex, Greater Accra",
+            "posted": "4 hours ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 210,
+            "image": "images/products/zity_mens_polo_shirt_short_sleeve.webp",
+            "description": "Classic short sleeve polo shirt with subtle stretch for comfort. Great for office casual or weekend outings.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Spintex Fashion Outlet",
+            "location": "Spintex Road, Greater Accra",
+            "about_store": "Affordable casual and smart wear for men and women with nationwide delivery."
+        },
+        "similar_listings": [
+            "JMIERR Mens Casual Stylish Short Sleeve Shirt",
+            "Mens Oversized Heavy Cotton T-shirt"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "mens-oversized-heavy-cotton-tshirt",
+            "name": "Mens Oversized Heavy Cotton T-shirt",
+            "location": "Tema, Greater Accra",
+            "posted": "1 day ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 260,
+            "image": "images/products/mens_oversized_heavy.webp",
+            "description": "Oversized heavy cotton tee with a streetwear fit. Thick fabric that keeps its shape after multiple washes.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "StreetStyle Ghana",
+            "location": "Tema Community 8, Greater Accra",
+            "about_store": "StreetStyle Ghana focuses on oversized tees, hoodies and joggers inspired by global streetwear trends."
+        },
+        "similar_listings": [
+            "Mens Oversized Heavy Cotton T-shirt (Variant 2)",
+            "Zity Mens Polo Shirt Short Sleeve"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "mens-oversized-heavy-cotton-tshirt-variant-2",
+            "name": "Mens Oversized Heavy Cotton T-shirt (Variant 2)",
+            "location": "Madina, Greater Accra",
+            "posted": "3 days ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 255,
+            "image": "images/products/men_oversized_heavy_cotton.webp",
+            "description": "Second colourway of our heavy cotton oversized t-shirt with dropped shoulders and relaxed fit.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "StreetStyle Ghana",
+            "location": "Madina, Greater Accra",
+            "about_store": "StreetStyle Ghana focuses on oversized tees, hoodies and joggers inspired by global streetwear trends."
+        },
+        "similar_listings": [
+            "Mens Oversized Heavy Cotton T-shirt",
+            "JMIERR Mens Casual Stylish Short Sleeve Shirt"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "jwj-mens-two-piece-outfit",
+            "name": "JWJ Mens 2-Piece Outfit Set",
+            "location": "Kasoa, Central Region",
+            "posted": "5 hours ago",
+            "condition": "New",
+            "category": "Fashion",
+            "price": 430,
+            "image": "images/products/jwj_mens_2.webp",
+            "description": "Comfortable 2-piece mens outfit suitable for events, church and casual gatherings. Tailored look with soft fabric.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Central Fashion Plug",
+            "location": "Kasoa, Central Region",
+            "about_store": "We provide modern menswear sets and kaftans with delivery across Ghana."
+        },
+        "similar_listings": [
+            "Mens Oversized Heavy Cotton T-shirt",
+            "Zity Mens Polo Shirt Short Sleeve"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "high-power-led-work-light",
+            "name": "High Power LED Work Light",
+            "location": "Tamale, Northern Region",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Electronics",
+            "price": 320,
+            "image": "images/products/high_power.webp",
+            "description": "Bright, energy-efficient LED work light suitable for workshops, outdoor events and backup lighting.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Northern Tech Supplies",
+            "location": "Tamale, Northern Region",
+            "about_store": "We distribute affordable power and lighting solutions for homes, shops and farms in northern Ghana."
+        },
+        "similar_listings": [
+            "High Power Control Tuya WiFi AC or Water Heater Smart Switch",
+            "4-Gang Tuya Control Wifi Smart Switch, No Neutral"
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "about_product": {
+            "slug": "iphone-12-pro-256gb-blue",
+            "name": "iPhone 12 Pro – 256GB (Pacific Blue)",
+            "location": "East Legon, Accra",
+            "posted": "Today",
+            "condition": "Used",
+            "category": "Electronics",
+            "price": 5500,
+            "image": "images/products/iphone_12_pro_blue.webp",
+            "description": "Very neat iPhone 12 Pro with no cracks. Battery health 92%. Works perfectly and comes with original box.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Prime Gadgets GH",
+            "location": "East Legon, Accra",
+            "about_store": "We deal in premium UK-used iPhones and accessories with warranty."
+        },
+        "similar_listings": [
+            "Canon EOS R10 Mirrorless Camera (Body Only)",
+            "High Power LED Work Light"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "hp-elitebook-840-g6",
+            "name": "HP EliteBook 840 G6 – i7 / 16GB / 512GB SSD",
+            "location": "Adenta, Accra",
+            "posted": "2 hours ago",
+            "condition": "Refurbished",
+            "category": "Electronics",
+            "price": 4200,
+            "image": "images/products/hp_elitebook_840_g6.webp",
+            "description": "Powerful workstation laptop ideal for programmers and business use. UK-imported with fresh installation.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Laptop Hub GH",
+            "location": "Adenta Barrier, Accra",
+            "about_store": "Reliable dealer in high-end laptops and office computers."
+        },
+        "similar_listings": [
+            "Canon 7234 Telephoto Lens"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "midea-200l-deep-freezer",
+            "name": "Midea 200L Deep Freezer",
+            "location": "Kasoa, Central Region",
+            "posted": "Yesterday",
+            "condition": "New",
+            "category": "Home Appliances",
+            "price": 2600,
+            "image": "images/products/midea_200l_freezer.webp",
+            "description": "Brand new Midea deep freezer with fast cooling technology and low noise compressor. Energy efficient.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "CoolHome Appliances",
+            "location": "Kasoa, Central Region",
+            "about_store": "Authorized distributors of Midea, Nasco and Hisense appliances."
+        },
+        "similar_listings": [
+            "High Power LED Work Light"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "wooden-study-desk-modern",
+            "name": "Modern Wooden Study Desk",
+            "location": "Spintex, Accra",
+            "posted": "3 hours ago",
+            "condition": "New",
+            "category": "Furniture",
+            "price": 750,
+            "image": "images/products/wooden_study_desk.webp",
+            "description": "Durable wooden study desk ideal for students and home offices. Comes with cable management holes.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "FurniCraft GH",
+            "location": "Spintex, Accra",
+            "about_store": "We design and build quality wooden furniture at competitive prices."
+        },
+        "similar_listings": [
+            "Columbia Steens Mountain Fleece Jacket - Mens"
+        ]
+    },
+    {
+        "about_product": {
+            "slug": "android-tcl-55-smart-tv",
+            "name": "TCL 55\" Android Smart TV (4K UHD)",
+            "location": "Tema Community 25, Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Electronics",
+            "price": 3900,
+            "image": "images/products/tcl_55_tv.webp",
+            "description": "Brand new TCL 4K UHD TV with Google Assistant, Chromecast built-in and HDR10 support.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Digital Mart GH",
+            "location": "Tema Community 25",
+            "about_store": "We sell authentic TVs with 1-year warranty."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "baby-crib-wooden-natural",
+            "name": "Natural Wooden Baby Crib",
+            "location": "Dansoman, Accra",
+            "posted": "2 days ago",
+            "condition": "New",
+            "category": "Babies & Kids",
+            "price": 480,
+            "image": "images/products/baby_crib_natural.webp",
+            "description": "Sturdy wooden crib for newborns. Smooth finish and breathable design. Mattress included.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "BabyLand GH",
+            "location": "Dansoman, Accra",
+            "about_store": "Trusted supplier of baby cribs, walkers, toys and accessories."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "akita-puppy-12weeks",
+            "name": "Purebred Akita Puppy – 12 Weeks",
+            "location": "Achimota, Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Animals & Pets",
+            "price": 2500,
+            "image": "images/products/akita_puppy.webp",
+            "description": "Healthy vaccinated Akita puppy. Very active and social. Comes with health card.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "PetWorld Ghana",
+            "location": "Achimota, Accra",
+            "about_store": "We breed high-quality dogs and provide pet supplies."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "bosch-cordless-drill-12v",
+            "name": "Bosch 12V Cordless Drill",
+            "location": "Kantamanto, Accra",
+            "posted": "3 hours ago",
+            "condition": "New",
+            "category": "Commercial Equipment & Tools",
+            "price": 850,
+            "image": "images/products/bosch_drill.webp",
+            "description": "Reliable Bosch drill for home repairs and professional carpentry. Comes with battery and charger.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "ToolZone GH",
+            "location": "Kantamanto, Accra",
+            "about_store": "Your one-stop shop for drills, saws and electrical tools."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "organic-shea-butter-1kg",
+            "name": "Pure Organic Shea Butter – 1KG",
+            "location": "Tamale, Northern Region",
+            "posted": "Yesterday",
+            "condition": "New",
+            "category": "Beauty & Personal Care",
+            "price": 65,
+            "image": "images/products/shea_butter.webp",
+            "description": "Raw unrefined shea butter sourced from women’s cooperatives in Northern Ghana.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "SheaCo Organic",
+            "location": "Tamale Central",
+            "about_store": "We produce natural shea products for skincare and haircare."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "air-fryer-nasco-5l",
+            "name": "Nasco 5L Digital Air Fryer",
+            "location": "Lapaz, Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Home Appliances",
+            "price": 780,
+            "image": "images/products/nasco_airfryer.webp",
+            "description": "Oil-free cooking with preset functions for fries, chicken, and pastries.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "Appliance Depot",
+            "location": "Lapaz, Accra",
+            "about_store": "Your trusted home appliance distributor."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "nasco-1-5hp-ac-split",
+            "name": "Nasco 1.5HP Split Air Conditioner",
+            "location": "Darkuman, Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Home Appliances",
+            "price": 3450,
+            "image": "images/products/nasco_ac.webp",
+            "description": "Powerful cooling, low noise, fast chill and energy-saving functions.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "CoolBreeze Ghana",
+            "location": "Darkuman, Accra",
+            "about_store": "We install and maintain AC units for homes and offices."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "gaming-chair-ergonomic-black",
+            "name": "Ergonomic Black Gaming Chair",
+            "location": "Airport Hills, Accra",
+            "posted": "2 hours ago",
+            "condition": "New",
+            "category": "Furniture",
+            "price": 1150,
+            "image": "images/products/gaming_chair_black.webp",
+            "description": "Comfortable gaming chair with recline, lumbar support and metal base.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "FurniCraft GH",
+            "location": "Airport Hills, Accra",
+            "about_store": "Premium office and gaming furniture."
+        },
+        "similar_listings": []
+    },
+    {
+        "about_product": {
+            "slug": "treadmill-foldable-electric",
+            "name": "Foldable Electric Treadmill",
+            "location": "Sakumono, Accra",
+            "posted": "Today",
+            "condition": "New",
+            "category": "Sports",
+            "price": 2800,
+            "image": "images/products/treadmill_foldable.webp",
+            "description": "High-quality treadmill with speed adjustment, calorie tracking and Bluetooth music.",
+            "promoted": false
+        },
+        "seller_information": {
+            "name": "FitLife Ghana",
+            "location": "Sakumono, Accra",
+            "about_store": "Gym equipment and fitness accessories."
+        },
+        "similar_listings": []
     }
+
+
 ]
